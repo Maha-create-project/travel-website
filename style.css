@@ -1,0 +1,32 @@
+p{
+    color:blueviolet;
+    font-weight: 100;
+}
+h1{
+    color: darkorchid;
+}
+#one{
+    height: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    color: palevioletred;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 15px ;
+    padding-left: 10px;
+    margin-left: 50px;
+
+}
+pre{
+    color: purple;
+    text-align: center;
+    font-weight: 100 ;
+}
+body{
+background-color:rgb(27, 25, 26);
+}
+#box {
+    background-color: rgb(215, 86, 155);
+}
+button{
+    background-color: pink;
+}
