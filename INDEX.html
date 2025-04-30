@@ -1,43 +1,58 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        
-        <title>Your Personal Tour planner</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <!--THIS IS A BODY TAG-->
-    <body>
-        <pre> <b><u><big><i>  Customize your Tour </i>  </big></u></b> 
-        <br><hr>
-        <b><i><big>Choose Country in Europe</big></i></b> 
-        </pre>
-        <div
-            id="box">
-            this is a simple box
-        </div>
-        <a href="https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland"target="_main" >
-        <br>
-        <img src="image.001.webp" height = 300px><b><big><button>Switzerland</button></big></b></a>
-        <h1 id="h1">About Switzerland</h1>
-        <p id="one">This is the best place to be on Vacation. </p> 
-        <a href="https://www.ricksteves.com/europe/austria/itinerary" target="_main">
-        <br>
-        <img src="image.002.jpeg"height = 300px><b><big><button>Austria</button></big></b></a>
-        <h1 id="h1">About Austria</h1>
-        <p id="one">If you are a student this i a place for you</p>
-        <a href="https://happytowander.com/germany-travel-guide/" target="_main">
-        <br>
-        <img src ="image.003.jpg"height = 300px><b><big><button>Germany</button> </big></b></a>
-        <h1 id="h1">About Germany</h1>
-        <p id="one">You will love being here</p>
-        
-            <!--THIS IS A BODY TAG-->
-        <p>
-           <b>I am going to be traveling</b> 
-        </p>
-        <button>Refresh Here</button>
-        
-    
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Tour Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Customize Your Tour</h1>
+        <hr>
+    </header>
+
+    <section id="parent">
+        <h2>Choose a Country in Europe</h2>
+    </section>
+
+    <div id="box">
+        This is a simple box  
+    </div>
+
+    <section class="country">
+        <a href="https://www.lonelyplanet.com/articles/best-places-to-visit-in-switzerland" target="_blank">
+            <img src="image.001.webp" alt="Switzerland" height="300">
+            <button>Switzerland</button>
+        </a>
+        <h3>About Switzerland</h3>
+        <p class="info">This is the best place to be on vacation.</p>
+    </section>
+
+    <section class="country">
+        <a href="https://www.ricksteves.com/europe/austria/itinerary" target="_blank">
+            <img src="image.002.jpeg" alt="Austria" height="300">
+            <button>Austria</button>
+        </a>
+        <h3>About Austria</h3>
+        <p class="info">If you are a student, this is the place for you.</p>
+    </section>
+
+    <section class="country">
+        <a href="https://happytowander.com/germany-travel-guide/" target="_blank">
+            <img src="image.003.jpg" alt="Germany" height="300">
+            <button>Germany</button>
+        </a>
+        <h3>About Germany</h3>
+        <p class="info">You will love being here.</p>
+    </section>
+
+    <footer>
+        <p><strong>I am going to be traveling</strong></p>
+        <button onclick="location.reload()">Refresh Here</button>
+    </footer>
+
+</body>
 </html>
+ 
